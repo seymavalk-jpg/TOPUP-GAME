@@ -1,0 +1,11 @@
+const games = [
+  { id: 1, name: "Mobile Legends", packages: [ { id: 101, name: "Diamond 10", price: 15000 }, { id: 102, name: "Diamond 30", price: 45000 }, { id: 103, name: "Diamond 50", price: 70000 }, { id: 104, name: "Diamond 100", price: 135000 }, { id: 105, name: "Diamond 250", price: 330000 } ] },
+  { id: 2, name: "PUBG Mobile", packages: [ { id: 201, name: "UC 100", price: 20000 }, { id: 202, name: "UC 300", price: 57000 }, { id: 203, name: "UC 500", price: 95000 }, { id: 204, name: "UC 1000", price: 180000 }, { id: 205, name: "UC 2000", price: 350000 } ] },
+  { id: 3, name: "Free Fire", packages: [ { id: 301, name: "Diamonds 50", price: 30000 }, { id: 302, name: "Diamonds 100", price: 58000 }, { id: 303, name: "Diamonds 200", price: 110000 }, { id: 304, name: "Diamonds 500", price: 270000 }, { id: 305, name: "Diamonds 1000", price: 500000 } ] },
+  { id: 4, name: "Genshin Impact", packages: [ { id: 401, name: "Primogems 60", price: 30000 }, { id: 402, name: "Primogems 300", price: 140000 }, { id: 403, name: "Primogems 980", price: 450000 }, { id: 404, name: "Primogems 1980", price: 900000 } ] },
+  { id: 5, name: "Call of Duty Mobile", packages: [ { id: 501, name: "CP 60", price: 25000 }, { id: 502, name: "CP 180", price: 70000 }, { id: 503, name: "CP 300", price: 115000 }, { id: 504, name: "CP 600", price: 225000 }, { id: 505, name: "CP 1200", price: 450000 } ] },
+  { id: 6, name: "Valorant Points", packages: [ { id: 601, name: "VP 400", price: 60000 }, { id: 602, name: "VP 800", price: 115000 }, { id: 603, name: "VP 1600", price: 225000 }, { id: 604, name: "VP 3200", price: 450000 } ] },
+  { id: 7, name: "Minecraft", packages: [ { id: 701, name: "Minecoins 300", price: 30000 }, { id: 702, name: "Minecoins 700", price: 70000 }, { id: 703, name: "Minecoins 1500", price: 150000 }, { id: 704, name: "Minecoins 3500", price: 350000 } ] },
+  { id: 8, name: "Ragnarok X", packages: [ { id: 801, name: "Kafra Coin 100", price: 20000 }, { id: 802, name: "Kafra Coin 500", price: 95000 }, { id: 803, name: "Kafra Coin 1000", price: 180000 }, { id: 804, name: "Kafra Coin 2000", price: 350000 } ] }
+];
+if(!localStorage.getItem('transactions')) localStorage.setItem('transactions', JSON.stringify([]));
